@@ -6,7 +6,7 @@ class TweetWall extends React.Component {
     super(props);
 
     this.state = {
-      tweets: []
+      tweets: [newTweets]
     };
   }
 
