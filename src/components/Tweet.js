@@ -1,6 +1,10 @@
 import React from 'react';
 
 class Tweet extends React.Component {
+  
+  componentWillMount() {
+    this.state.newTweets()
+  }
 
   render() {
     return (
