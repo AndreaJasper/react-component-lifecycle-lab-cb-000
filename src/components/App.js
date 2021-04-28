@@ -14,7 +14,7 @@ class App extends React.Component {
   }
 
   componentWillMount() {
-    this.props.fetchTweets()  
+    this.fetchTweets()  
   }
   
   
